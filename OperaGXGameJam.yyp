@@ -30,6 +30,7 @@
     {"id":{"name":"obj_score_rescue","path":"objects/obj_score_rescue/obj_score_rescue.yy",},"order":5,},
     {"id":{"name":"obj_jump_effect","path":"objects/obj_jump_effect/obj_jump_effect.yy",},"order":7,},
     {"id":{"name":"obj_civilian","path":"objects/obj_civilian/obj_civilian.yy",},"order":4,},
+    {"id":{"name":"spr_black_sky","path":"sprites/spr_black_sky/spr_black_sky.yy",},"order":17,},
     {"id":{"name":"spr_sky","path":"sprites/spr_sky/spr_sky.yy",},"order":16,},
     {"id":{"name":"snd_menu_music","path":"sounds/snd_menu_music/snd_menu_music.yy",},"order":1,},
     {"id":{"name":"obj_button_quit","path":"objects/obj_button_quit/obj_button_quit.yy",},"order":2,},

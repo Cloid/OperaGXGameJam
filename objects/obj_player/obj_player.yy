@@ -1,14 +1,11 @@
 {
   "spriteId": {
-    "name": "spr_player_air",
-    "path": "sprites/spr_player_air/spr_player_air.yy",
+    "name": "spr_cow",
+    "path": "sprites/spr_cow/spr_cow.yy",
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": {
-    "name": "spr_player_air",
-    "path": "sprites/spr_player_air/spr_player_air.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
