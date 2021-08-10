@@ -9,9 +9,9 @@ if(vspeed > 0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 1563DC26
 	/// @DnDParent : 5E22495F
-	/// @DnDArgument : "speed" "-20"
+	/// @DnDArgument : "speed" "-18"
 	/// @DnDArgument : "type" "2"
-	vspeed = -20;
+	vspeed = -18;
 
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
