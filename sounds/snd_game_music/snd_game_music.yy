@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 1.0,
+  "volume": 0.1,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_game_music.wav",
-  "duration": 29.53798,
+  "duration": 25.69,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
