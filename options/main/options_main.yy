@@ -1,5 +1,5 @@
 {
-  "option_gameguid": "c7b5374e-89f4-48fe-972e-80a37e2056e0",
+  "option_gameguid": "232ba4a0-1e0d-4e91-8208-0d63d5e86b5b",
   "option_gameid": "0",
   "option_game_speed": 60,
   "option_mips_for_3d_textures": false,
@@ -8,7 +8,7 @@
   "option_steam_app_id": "0",
   "option_sci_usesci": false,
   "option_author": "",
-  "option_lastchanged": "",
+  "option_lastchanged": "04 May 2021 14:13:12",
   "option_spine_licence": false,
   "resourceVersion": "1.2",
   "name": "Main",
