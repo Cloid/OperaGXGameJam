@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_score_card",
-    "path": "sprites/spr_score_card/spr_score_card.yy",
+    "name": "spr_black_sky",
+    "path": "sprites/spr_black_sky/spr_black_sky.yy",
   },
   "solid": false,
   "visible": true,

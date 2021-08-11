@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_score_card",
-    "path": "sprites/spr_score_card/spr_score_card.yy",
+    "name": "spr_blank",
+    "path": "sprites/spr_blank/spr_blank.yy",
   },
   "solid": false,
   "visible": true,

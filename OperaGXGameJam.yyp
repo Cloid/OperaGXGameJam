@@ -30,6 +30,7 @@
     {"id":{"name":"spr_game_over","path":"sprites/spr_game_over/spr_game_over.yy",},"order":4,},
     {"id":{"name":"obj_score_rescue","path":"objects/obj_score_rescue/obj_score_rescue.yy",},"order":5,},
     {"id":{"name":"obj_jump_effect","path":"objects/obj_jump_effect/obj_jump_effect.yy",},"order":7,},
+    {"id":{"name":"spr_blank","path":"sprites/spr_blank/spr_blank.yy",},"order":20,},
     {"id":{"name":"obj_civilian","path":"objects/obj_civilian/obj_civilian.yy",},"order":4,},
     {"id":{"name":"spr_black_sky","path":"sprites/spr_black_sky/spr_black_sky.yy",},"order":17,},
     {"id":{"name":"spr_sky","path":"sprites/spr_sky/spr_sky.yy",},"order":16,},
