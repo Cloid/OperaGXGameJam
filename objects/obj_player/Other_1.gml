@@ -1,5 +1,37 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
+/// @DnDHash : 5EF72039
+/// @DnDArgument : "var" "x"
+/// @DnDArgument : "op" "1"
+/// @DnDArgument : "value" "-32"
+if(x < -32)
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+	/// @DnDVersion : 1
+	/// @DnDHash : 10B4D1A0
+	/// @DnDParent : 5EF72039
+	/// @DnDArgument : "value" "room_width + 32"
+	x = room_width + 32;
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 706179A6
+/// @DnDArgument : "var" "x"
+/// @DnDArgument : "op" "2"
+/// @DnDArgument : "value" "room_width + 32"
+if(x > room_width + 32)
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+	/// @DnDVersion : 1
+	/// @DnDHash : 01FF136E
+	/// @DnDParent : 706179A6
+	/// @DnDArgument : "value" "-32"
+	x = -32;
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
 /// @DnDHash : 4FEEDA39
 /// @DnDArgument : "var" "y"
 /// @DnDArgument : "op" "4"
