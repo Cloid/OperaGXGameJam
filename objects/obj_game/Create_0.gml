@@ -83,3 +83,13 @@ part_type_alpha3(fire, 1, 0.8, 0);
 /// @DnDArgument : "layer" ""Transition""
 /// @DnDSaveInfo : "sequenceid" "seq_transition_end"
 layer_sequence_create("Transition", 0, 0, seq_transition_end);
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 43F26245
+/// @DnDInput : 2
+/// @DnDArgument : "expr_1" "6"
+/// @DnDArgument : "var" "number_of_clouds"
+/// @DnDArgument : "var_1" "maximum_clouds"
+number_of_clouds = 0;
+maximum_clouds = 6;
