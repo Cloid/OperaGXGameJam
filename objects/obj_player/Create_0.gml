@@ -1,14 +1,15 @@
 /// @DnDAction : YoYo Games.Movement.Set_Speed
 /// @DnDVersion : 1
 /// @DnDHash : 7E542FB2
-/// @DnDArgument : "speed" "-35"
+/// @DnDArgument : "speed" "-40"
 /// @DnDArgument : "type" "2"
-vspeed = -35;
+vspeed = -40;
 
 /// @DnDAction : YoYo Games.Movement.Set_Gravity_Force
 /// @DnDVersion : 1
 /// @DnDHash : 2ED90CAC
-gravity = 1;
+/// @DnDArgument : "force" ".65"
+gravity = .65;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
