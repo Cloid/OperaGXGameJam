@@ -4,6 +4,7 @@
     {"id":{"name":"snd_death","path":"sounds/snd_death/snd_death.yy",},"order":2,},
     {"id":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},"order":0,},
     {"id":{"name":"spr_cow","path":"sprites/spr_cow/spr_cow.yy",},"order":14,},
+    {"id":{"name":"fnt_hscore","path":"fonts/fnt_hscore/fnt_hscore.yy",},"order":2,},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},"order":19,},
     {"id":{"name":"obj_button_replay","path":"objects/obj_button_replay/obj_button_replay.yy",},"order":3,},
     {"id":{"name":"fnt_score","path":"fonts/fnt_score/fnt_score.yy",},"order":0,},
