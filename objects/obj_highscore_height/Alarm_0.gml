@@ -17,13 +17,14 @@ if(global.score_height > global.highscore_height)
 	/// @DnDAction : YoYo Games.Particles.Part_Particles_Create
 	/// @DnDVersion : 1
 	/// @DnDHash : 58895D32
+	/// @DnDDisabled : 1
 	/// @DnDParent : 5453FC14
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "system" "obj_game.particle_system"
 	/// @DnDArgument : "type" "obj_game.fire"
 	/// @DnDArgument : "number" "8"
-	part_particles_create(obj_game.particle_system, x + 0, y + 0, obj_game.fire, 8);
+
 
 	/// @DnDAction : YoYo Games.Audio.Play_Audio
 	/// @DnDVersion : 1

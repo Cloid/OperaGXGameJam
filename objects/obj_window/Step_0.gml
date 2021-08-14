@@ -11,11 +11,10 @@ if(y > room_height + 36)
 	/// @DnDHash : 369312C8
 	/// @DnDParent : 4598CC09
 	/// @DnDArgument : "var" "new_x"
-	/// @DnDArgument : "var_temp" "1"
 	/// @DnDArgument : "type" "1"
 	/// @DnDArgument : "min" "20"
 	/// @DnDArgument : "max" "room_width - 20"
-	var new_x = floor(random_range(20, room_width - 20 + 1));
+	new_x = floor(random_range(20, room_width - 20 + 1));
 
 	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 	/// @DnDVersion : 1

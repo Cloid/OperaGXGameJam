@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_civilian_0",
-    "path": "sprites/spr_civilian_0/spr_civilian_0.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
