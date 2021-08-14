@@ -44,10 +44,10 @@ if(y >= room_height)
 	/// @DnDParent : 4FEEDA39
 	/// @DnDArgument : "xpos_relative" "1"
 	/// @DnDArgument : "ypos_relative" "1"
-	/// @DnDArgument : "objectid" "obj_player_defeated"
+	/// @DnDArgument : "objectid" "obj_player_defeated2"
 	/// @DnDArgument : "layer" ""Player""
-	/// @DnDSaveInfo : "objectid" "obj_player_defeated"
-	instance_create_layer(x + 0, y + 0, "Player", obj_player_defeated);
+	/// @DnDSaveInfo : "objectid" "obj_player_defeated2"
+	instance_create_layer(x + 0, y + 0, "Player", obj_player_defeated2);
 
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1

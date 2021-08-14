@@ -1,3 +1,26 @@
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 2EA15189
+/// @DnDArgument : "var" "global.playercount"
+/// @DnDArgument : "value" "2"
+if(global.playercount == 2)
+{
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 4193462B
+	/// @DnDParent : 2EA15189
+	/// @DnDArgument : "expr" "true"
+	/// @DnDArgument : "var" "global.player2_alive"
+	global.player2_alive = true;
+}
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 63E3B398
+/// @DnDArgument : "expr" "true"
+/// @DnDArgument : "var" "global.player1_alive"
+global.player1_alive = true;
+
 /// @DnDAction : YoYo Games.Audio.Stop_All_Audio
 /// @DnDVersion : 1
 /// @DnDHash : 28580AAD
@@ -10,6 +33,65 @@ audio_stop_all();
 /// @DnDArgument : "loop" "1"
 /// @DnDSaveInfo : "soundid" "snd_game_music"
 audio_play_sound(snd_game_music, 0, 1);
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 43F26245
+/// @DnDInput : 2
+/// @DnDArgument : "expr_1" "6"
+/// @DnDArgument : "var" "number_of_clouds"
+/// @DnDArgument : "var_1" "maximum_clouds"
+number_of_clouds = 0;
+maximum_clouds = 6;
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 17EB0BD5
+/// @DnDArgument : "var" "global.playercount"
+/// @DnDArgument : "value" "1"
+if(global.playercount == 1)
+{
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 46FD68B2
+	/// @DnDParent : 17EB0BD5
+	/// @DnDArgument : "xpos" "200"
+	/// @DnDArgument : "ypos" "480"
+	/// @DnDArgument : "objectid" "obj_player"
+	/// @DnDArgument : "layer" ""Player""
+	/// @DnDSaveInfo : "objectid" "obj_player"
+	instance_create_layer(200, 480, "Player", obj_player);
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 41F92567
+/// @DnDArgument : "var" "global.playercount"
+/// @DnDArgument : "value" "2"
+if(global.playercount == 2)
+{
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 47A32A7D
+	/// @DnDParent : 41F92567
+	/// @DnDArgument : "xpos" "150"
+	/// @DnDArgument : "ypos" "480"
+	/// @DnDArgument : "objectid" "obj_player"
+	/// @DnDArgument : "layer" ""Player""
+	/// @DnDSaveInfo : "objectid" "obj_player"
+	instance_create_layer(150, 480, "Player", obj_player);
+
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 07207AF6
+	/// @DnDParent : 41F92567
+	/// @DnDArgument : "xpos" "250"
+	/// @DnDArgument : "ypos" "480"
+	/// @DnDArgument : "objectid" "obj_player2"
+	/// @DnDArgument : "layer" ""Player""
+	/// @DnDSaveInfo : "objectid" "obj_player2"
+	instance_create_layer(250, 480, "Player", obj_player2);
+}
 
 /// @DnDAction : YoYo Games.Particles.Part_Syst_Create
 /// @DnDVersion : 1.1
@@ -94,38 +176,29 @@ audio_play_sound(snd_game_music, 0, 1);
 /// @DnDAction : YoYo Games.Drawing.Set_Font
 /// @DnDVersion : 1
 /// @DnDHash : 10F0D0E9
+/// @DnDDisabled : 1
 /// @DnDArgument : "font" "fnt_score"
 /// @DnDSaveInfo : "font" "fnt_score"
-draw_set_font(fnt_score);
+
 
 /// @DnDAction : YoYo Games.Drawing.Set_Alignment
 /// @DnDVersion : 1.1
 /// @DnDHash : 16A64012
+/// @DnDDisabled : 1
 /// @DnDArgument : "halign" "fa_center"
 /// @DnDArgument : "valign" "fa_middle"
-draw_set_halign(fa_center);
-draw_set_valign(fa_middle);
+
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 6E2D01C0
+/// @DnDDisabled : 1
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "caption" ""Game Over!""
-draw_text(x + 0, y + 0, string("Game Over!") + "");
+
 
 /// @DnDAction : YoYo Games.Drawing.Set_Alignment
 /// @DnDVersion : 1.1
 /// @DnDHash : 0988EF3C
-draw_set_halign(fa_left);
-draw_set_valign(fa_top);
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 43F26245
-/// @DnDInput : 2
-/// @DnDArgument : "expr_1" "6"
-/// @DnDArgument : "var" "number_of_clouds"
-/// @DnDArgument : "var_1" "maximum_clouds"
-number_of_clouds = 0;
-maximum_clouds = 6;
+/// @DnDDisabled : 1

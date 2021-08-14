@@ -1,6 +1,6 @@
 /// @DnDAction : YoYo Games.Instances.Sprite_Scale
 /// @DnDVersion : 1
-/// @DnDHash : 277112BC
+/// @DnDHash : 7EBC05BE
 /// @DnDArgument : "xscale" "2"
 /// @DnDArgument : "yscale" "2"
 image_xscale = 2;
@@ -42,49 +42,32 @@ if(global.score_height > global.highscore_height)
 	global.highscore_height = global.score_height;
 }
 
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 427A07B2
-/// @DnDArgument : "var" "global.playercount"
-/// @DnDArgument : "value" "1"
-if(global.playercount == 1)
-{
-	/// @DnDAction : YoYo Games.Instances.Create_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 1C927C87
-	/// @DnDParent : 427A07B2
-	/// @DnDArgument : "objectid" "obj_showscore"
-	/// @DnDArgument : "layer" ""Player""
-	/// @DnDSaveInfo : "objectid" "obj_showscore"
-	instance_create_layer(0, 0, "Player", obj_showscore);
-}
-
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 3C52AEA0
+/// @DnDHash : 51957618
 /// @DnDArgument : "expr" "false"
-/// @DnDArgument : "var" "global.player1_alive"
-global.player1_alive = false;
+/// @DnDArgument : "var" "global.player2_alive"
+global.player2_alive = false;
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 64DA7F14
+/// @DnDHash : 40E364FD
 /// @DnDArgument : "var" "global.playercount"
 /// @DnDArgument : "value" "2"
 if(global.playercount == 2)
 {
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 48803F36
-	/// @DnDParent : 64DA7F14
-	/// @DnDArgument : "var" "global.player2_alive"
+	/// @DnDHash : 62FC16B1
+	/// @DnDParent : 40E364FD
+	/// @DnDArgument : "var" "global.player1_alive"
 	/// @DnDArgument : "value" "false"
-	if(global.player2_alive == false)
+	if(global.player1_alive == false)
 	{
 		/// @DnDAction : YoYo Games.Instances.Create_Instance
 		/// @DnDVersion : 1
-		/// @DnDHash : 69D3A4F6
-		/// @DnDParent : 48803F36
+		/// @DnDHash : 41BE7EA3
+		/// @DnDParent : 62FC16B1
 		/// @DnDArgument : "objectid" "obj_showscore"
 		/// @DnDArgument : "layer" ""HUD""
 		/// @DnDSaveInfo : "objectid" "obj_showscore"

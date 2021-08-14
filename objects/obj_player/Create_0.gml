@@ -1,3 +1,11 @@
+/// @DnDAction : YoYo Games.Instances.Sprite_Scale
+/// @DnDVersion : 1
+/// @DnDHash : 1C46D790
+/// @DnDArgument : "xscale" "2"
+/// @DnDArgument : "yscale" "2"
+image_xscale = 2;
+image_yscale = 2;
+
 /// @DnDAction : YoYo Games.Movement.Set_Speed
 /// @DnDVersion : 1
 /// @DnDHash : 7E542FB2
