@@ -23,9 +23,9 @@ draw_set_valign(fa_middle);
 /// @DnDHash : 410E7F0C
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "caption" ""Height ""
+/// @DnDArgument : "caption" ""Height: ""
 /// @DnDArgument : "var" "round(global.score_height)"
-draw_text(x + 0, y + 0, string("Height ") + string(round(global.score_height)));
+draw_text(x + 0, y + 0, string("Height: ") + string(round(global.score_height)));
 
 /// @DnDAction : YoYo Games.Drawing.Set_Alignment
 /// @DnDVersion : 1.1
