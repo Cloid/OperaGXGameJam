@@ -84,11 +84,41 @@ audio_play_sound(snd_game_music, 0, 1);
 /// @DnDAction : YoYo Games.Sequences.Sequence_Create
 /// @DnDVersion : 1
 /// @DnDHash : 76A8158C
+/// @DnDDisabled : 1
 /// @DnDArgument : "var" ""
 /// @DnDArgument : "sequenceid" "seq_transition_end"
 /// @DnDArgument : "layer" ""Transition""
 /// @DnDSaveInfo : "sequenceid" "seq_transition_end"
-layer_sequence_create("Transition", 0, 0, seq_transition_end);
+
+
+/// @DnDAction : YoYo Games.Drawing.Set_Font
+/// @DnDVersion : 1
+/// @DnDHash : 10F0D0E9
+/// @DnDArgument : "font" "fnt_score"
+/// @DnDSaveInfo : "font" "fnt_score"
+draw_set_font(fnt_score);
+
+/// @DnDAction : YoYo Games.Drawing.Set_Alignment
+/// @DnDVersion : 1.1
+/// @DnDHash : 16A64012
+/// @DnDArgument : "halign" "fa_center"
+/// @DnDArgument : "valign" "fa_middle"
+draw_set_halign(fa_center);
+draw_set_valign(fa_middle);
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDVersion : 1
+/// @DnDHash : 6E2D01C0
+/// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y_relative" "1"
+/// @DnDArgument : "caption" ""Game Over!""
+draw_text(x + 0, y + 0, string("Game Over!") + "");
+
+/// @DnDAction : YoYo Games.Drawing.Set_Alignment
+/// @DnDVersion : 1.1
+/// @DnDHash : 0988EF3C
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
