@@ -29,8 +29,8 @@ if(global.score_height > global.highscore_height)
 	/// @DnDAction : YoYo Games.Audio.Play_Audio
 	/// @DnDVersion : 1
 	/// @DnDHash : 31203893
+	/// @DnDDisabled : 1
 	/// @DnDParent : 5453FC14
 	/// @DnDArgument : "soundid" "snd_highscore"
 	/// @DnDSaveInfo : "soundid" "snd_highscore"
-	audio_play_sound(snd_highscore, 0, 0);
 }
