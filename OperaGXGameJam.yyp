@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"spr_menu_background","path":"sprites/spr_menu_background/spr_menu_background.yy",},"order":2,},
+    {"id":{"name":"snd_death","path":"sounds/snd_death/snd_death.yy",},"order":2,},
     {"id":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},"order":0,},
     {"id":{"name":"spr_cow","path":"sprites/spr_cow/spr_cow.yy",},"order":14,},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},"order":19,},
@@ -36,6 +37,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"seq_menu","path":"sequences/seq_menu/seq_menu.yy",},"order":0,},
     {"id":{"name":"spr_sky2","path":"sprites/spr_sky2/spr_sky2.yy",},"order":18,},
+    {"id":{"name":"spr_gameover","path":"sprites/spr_gameover/spr_gameover.yy",},"order":26,},
     {"id":{"name":"obj_score_height","path":"objects/obj_score_height/obj_score_height.yy",},"order":6,},
     {"id":{"name":"spr_beam","path":"sprites/spr_beam/spr_beam.yy",},"order":22,},
     {"id":{"name":"seq_transition_start","path":"sequences/seq_transition_start/seq_transition_start.yy",},"order":1,},
